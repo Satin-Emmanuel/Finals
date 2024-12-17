@@ -649,7 +649,7 @@ def body():
         print(f"\nPlease Select an Option:   ")
         print(f"\n1. Open Activity List")  
         print(f"2. Open Code Challenge List")
-        print(f"3. Exit Program")
+        print(f"3. Close Program")
         print(">>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<")
 
         menu = input(f"\nChoose what action you want to do:  ")
