@@ -647,8 +647,8 @@ def body():
         print(f"Hi welcom to Eman Satin's code list")
         print(f"From BSIT-1C")
         print(f"\nPlease Select an Option:   ")
-        print(f"\n1. Open Activity List")  
-        print(f"2. Open Code Challenge List")
+        print(f"\n1. Open activity List")  
+        print(f"2. Open Code_challenge List")
         print(f"3. Close Program")
         print(">>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<")
 
@@ -677,108 +677,108 @@ def body():
                 print(">>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<")
                 tuloy = True
                 while tuloy == True:
-                    piliact = input(f"\nChoose the number of activity you wish to open--->  ")
-                    if piliact =="1":
+                    pilikaact = input(f"\nChoose the number of activity you wish to open--->  ")
+                    if pilikaact =="1":
                         os.system("cls")
                         act_1()
                         return act_List1()
-                    elif piliact =="2":
+                    elif pilikaact =="2":
                         os.system("cls")
                         act_2()
                         return act_List1()
-                    elif piliact =="3":
+                    elif pilikaact =="3":
                         os.system("cls")
                         act_3()
                         return act_List1()
-                    elif piliact =="4":
+                    elif pilikaact =="4":
                         os.system("cls")
                         act_4()
                         return act_List1()
-                    elif piliact =="5":
+                    elif pilikaact =="5":
                         os.system("cls")
                         act_5()
                         return act_List1()
-                    elif piliact =="6":
+                    elif pilikaact =="6":
                         os.system("cls")
                         act_6()
                         return act_List1() 
-                    elif piliact =="7":
+                    elif pilikaact =="7":
                         os.system("cls")
                         act_7()
                         return act_List1() 
-                    elif piliact =="8":
+                    elif pilikaact =="8":
                         os.system("cls")
                         act_8()
                         return act_List1() 
-                    elif piliact =="9":
+                    elif pilikaact =="9":
                         os.system("cls")
                         act_9()
                         return act_List1() 
-                    elif piliact =="10":
+                    elif pilikaact =="10":
                         os.system("cls")
                         act_10()
                         return act_List1() 
-                    elif piliact =="11":
+                    elif pilikaact =="11":
                         os.system("cls")
                         act_11()
                         return act_List1() 
-                    elif piliact =="12":
+                    elif pilikaact =="12":
                         os.system("cls")
                         act_12()
                         return act_List1() 
-                    elif piliact =="13":
+                    elif pilikaact =="13":
                         os.system("cls")
                         act_13()
                         return act_List1() 
-                    elif piliact =="14":
+                    elif pilikaact =="14":
                         os.system("cls")
                         act_14()
                         return act_List1() 
-                    elif piliact =="15":
+                    elif pilikaact =="15":
                         os.system("cls")
                         act_15()
                         return act_List1() 
-                    elif piliact =="16":
+                    elif pilikaact =="16":
                         os.system("cls")
                         act_16()
                         return act_List1() 
-                    elif piliact =="17":
+                    elif pilikaact =="17":
                         os.system("cls")
                         act_17()
                         return act_List1() 
-                    elif piliact =="18":
+                    elif pilikaact =="18":
                         os.system("cls")
                         act_18()
                         return act_List1() 
-                    elif piliact =="19":
+                    elif pilikaact =="19":
                         os.system("cls")
                         act_19()
                         return act_List1() 
-                    elif piliact =="20":
+                    elif pilikaact =="20":
                         os.system("cls")
                         act_20()
                         return act_List1() 
-                    elif piliact =="21":
+                    elif pilikaact =="21":
                         os.system("cls")
                         act_21()
                         return act_List1() 
-                    elif piliact =="22":
+                    elif pilikaact =="22":
                         os.system("cls")
                         act_22()
                         return act_List1() 
-                    elif piliact =="23":
+                    elif pilikaact =="23":
                         os.system("cls")
                         act_23()
                         return act_List1() 
-                    elif piliact =="24":
+                    elif pilikaact =="24":
                         os.system("cls")
                         act_24()
                         return act_List1() 
-                    elif piliact =="25":
+                    elif pilikaact =="25":
                         os.system("cls")
                         act_25()
                         return act_List1()
-                    elif piliact.lower() =="back":
+                    elif pilikaact.lower() =="back":
                         os.system("cls")
                         return menu
                     else:
@@ -808,72 +808,72 @@ def body():
                 print(">>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<")  
                 tuloy = True
                 while tuloy == True:
-                    pilicc = input(f"\nChoose which number of Code Challenge you want to open--->  ")
-                    if pilicc =="1":
+                    pilikacc = input(f"\nChoose which number of Code Challenge you want to open--->  ")
+                    if pilikacc =="1":
                         os.system("cls")
                         cc_1()
                         return cc_List2()
-                    elif pilicc =="2":
+                    elif pilikacc =="2":
                         os.system("cls")
                         cc_2()
                         return cc_List2()
-                    elif pilicc =="3":
+                    elif pilikacc =="3":
                         os.system("cls")
                         cc_3()
                         return cc_List2()
-                    elif pilicc =="4":
+                    elif pilikacc =="4":
                         os.system("cls")
                         cc_4()
                         return cc_List2()
-                    elif pilicc =="5":
+                    elif pilikacc =="5":
                         os.system("cls")
                         cc_5()
                         return cc_List2()
-                    elif pilicc =="6":
+                    elif pilikacc =="6":
                         os.system("cls")
                         cc_6()
                         return cc_List2()
-                    elif pilicc =="7":
+                    elif pilikacc =="7":
                         os.system("cls")
                         cc_7()
                         return cc_List2()
-                    elif pilicc =="8":
+                    elif pilikacc =="8":
                         os.system("cls")
                         cc_8()
                         return cc_List2()
-                    elif pilicc =="9":
+                    elif pilikacc =="9":
                         os.system("cls")
                         cc_9()
                         return cc_List2()
-                    elif pilicc =="10":
+                    elif pilikacc =="10":
                         os.system("cls")
                         cc_10()
                         return cc_List2()
-                    elif pilicc =="11":
+                    elif pilikacc =="11":
                         os.system("cls")
                         cc_11()
                         return cc_List2()
-                    elif pilicc =="12":
+                    elif pilikacc =="12":
                         os.system("cls")
                         cc_12()
                         return cc_List2()
-                    elif pilicc =="13":
+                    elif pilikacc =="13":
                         os.system("cls")
                         cc_13()
                         return cc_List2()
-                    elif pilicc =="14":
+                    elif pilikacc =="14":
                         os.system("cls")
                         cc_14()
                         return cc_List2()
-                    elif pilicc =="15":
+                    elif pilikacc =="15":
                         os.system("cls")
                         cc_15()
                         return cc_List2()
-                    elif pilicc =="16":
+                    elif pilikacc =="16":
                         os.system("cls")
                         cc_16()
                         return cc_List2()
-                    elif pilicc.lower() =="back":
+                    elif pilikacc.lower() =="back":
                         os.system("cls")
                         return menu
                     else:
